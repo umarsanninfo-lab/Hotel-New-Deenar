@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hotel New Deenar | Premium Kerala Beef Restaurant</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+
+body{background:#faf7f7;color:#222}
+
+/* NAVBAR */
+nav{
+background:#7a0c17;
+color:#fff;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 60px;
+position:sticky;
+top:0;
+z-index:1000
+}
+
+nav h2{color:#ffd54f}
+
+nav a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+font-weight:500
+}
+
+/* HERO */
+.hero{
+height:90vh;
+background:url('https://images.unsplash.com/photo-1604908176997-431c7e1c5d4c') center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px
+}
+
+.hero-content{
+background:rgba(122,12,23,0.85);
+padding:50px;
+border-radius:12px;
+max-width:700px
+}
+
+.hero h1{font-size:48px;margin-bottom:15px}
+
+.hero p{font-size:20px;margin-bottom:25px}
+
+.btn{
+background:#ffd54f;
+color:#7a0c17;
+padding:14px 28px;
+border:none;
+border-radius:6px;
+font-weight:600;
+text-decoration:none;
+margin:8px;
+display:inline-block
+}
+
+/* SECTIONS */
+section{padding:80px 60px;background:white}
+
+section:nth-child(even){background:#fff8e1}
+
+h2{text-align:center;margin-bottom:50px;font-size:36px;color:#7a0c17}
+
+/* GRID */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:25px
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+text-align:center;
+transition:.3s
+}
+
+.card:hover{transform:translateY(-8px)}
+
+.card h3{margin-bottom:12px;color:#7a0c17}
+
+/* ABOUT */
+.about{text-align:center;max-width:900px;margin:auto;font-size:18px;line-height:1.8}
+
+/* CONTACT */
+.contact{text-align:center;font-size:18px;line-height:2}
+
+/* FOOTER */
+footer{
+background:#7a0c17;
+color:#ffd54f;
+text-align:center;
+padding:30px
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:16px 18px;
+border-radius:50%;
+font-size:22px;
+text-decoration:none;
+box-shadow:0 4px 12px rgba(0,0,0,.3)
+}
+
+/* MOBILE */
+@media(max-width:768px){
+nav{padding:15px 20px}
+.hero h1{font-size:32px}
+section{padding:60px 20px}
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<h2>Hotel New Deenar</h2>
+<div>
+<a href="#about">About</a>
+<a href="#menu">Specials</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+<div class="hero-content">
+<h1>Authentic Kerala Beef Specialties</h1>
+<p>Premium Taste • Traditional Recipes • Rich Flavours</p>
+
+<a class="btn" href="#menu">View Specials</a>
+<a class="btn" href="#contact">Order Now</a>
+</div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>About Us</h2>
+<p class="about">
+Welcome to Hotel New Deenar — a premium destination for authentic Kerala-style beef dishes.
+We specialize in rich, traditional recipes prepared with fresh spices, slow cooking techniques,
+and uncompromising quality. Our mission is to deliver a true taste of Kerala that keeps customers coming back.
+</p>
+</section>
+
+<!-- SPECIAL DISHES -->
+<section id="menu">
+<h2>Our Signature Specials</h2>
+<div class="grid">
+
+<div class="card">
+<h3>Palli Curry Beef</h3>
+<p>A rich, spicy Kerala-style beef curry slow-cooked with traditional masalas.</p>
+</div>
+
+<div class="card">
+<h3>Palli Katt</h3>
+<p>A unique specialty dish packed with bold flavors and authentic preparation.</p>
+</div>
+
+<div class="card">
+<h3>Kerala Parotta & Beef</h3>
+<p>Flaky parotta served with aromatic beef curry.</p>
+</div>
+
+<div class="card">
+<h3>Meals & Combos</h3>
+<p>Complete satisfying meals with authentic side dishes.</p>
+</div>
+
+</div>
+</section>
+
+<!-- WHY CHOOSE -->
+<section>
+<h2>Why Customers Love Us</h2>
+<div class="grid">
+<div class="card"><h3>Authentic Kerala Taste</h3></div>
+<div class="card"><h3>Premium Quality Ingredients</h3></div>
+<div class="card"><h3>Freshly Prepared Daily</h3></div>
+<div class="card"><h3>Family-Friendly Dining</h3></div>
+<div class="card"><h3>Quick Service</h3></div>
+<div class="card"><h3>Affordable Prices</h3></div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Visit Us</h2>
+<div class="contact">
+<strong>Hotel New Deenar</strong><br>
+Address: Your Hotel Address Here<br>
+Phone: +91 XXXXX XXXXX<br>
+WhatsApp: +91 XXXXX XXXXX<br>
+Business Hours: 7 AM – 11 PM Daily
+</div>
+</section>
+
+<footer>
+© 2026 Hotel New Deenar — All Rights Reserved
+</footer>
+
+<!-- WHATSAPP BUTTON -->
+<a class="whatsapp" href="https://wa.me/91XXXXXXXXXX" target="_blank">💬</a>
+
+</body>
+</html>
